@@ -5,9 +5,6 @@ from surprise import Dataset, Reader, SVD
 from surprise.model_selection import cross_validate
 
 def main():
-    #books = [i.strip().split(",") for i in open('/archive/Books.csv', 'r').readlines()]
-    #users_list = [i.strip().split(",") for i in open('/archive/nickbecker/Downloads/ml-1m/users.dat', 'r').readlines()]
-    #movies_list = [i.strip().split(",") for i in open('/archive/nickbecker/Downloads/ml-1m/movies.dat', 'r').readlines()]
 
     ratings_df = pd.read_csv("archive/ratings_new.csv")
     print(ratings_df.head(5))
