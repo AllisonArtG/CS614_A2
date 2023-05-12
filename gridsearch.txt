@@ -1,0 +1,26 @@
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    4.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    7.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   12.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:   16.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 135 out of 135 | elapsed: 17.1min finished
+RMSE
+1.6383556394200407
+{'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005}
+MAE
+1.2630940258694012
+{'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005}
+
+#reduced dataset
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    6.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   15.0s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   23.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   4 out of   4 | elapsed:   29.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done 135 out of 135 | elapsed: 24.4min finished
+RMSE
+1.6459273138506305
+{'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005}
+MAE
+1.2702622521636509
+{'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005}
